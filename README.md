@@ -12,5 +12,5 @@ My learning process of the data structure course
 - 作業
 - 每周心得
 --------------------------------------------------------------------------
-#[我的web page](https://jettinglin.github.io/)
-
+#我的web_page
+- [Personal Web](https://jettinglin.github.io/)
