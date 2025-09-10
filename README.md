@@ -10,7 +10,7 @@ My learning process of the data structure course
 內容有:
 - 筆記
 - 作業
-- [每周心得](./week_logs)
+- [每周心得](./weekly_logs)
 --------------------------------------------------------------------------
 # 我的web_page
 - [Personal Web](https://jettinglin.github.io/)
