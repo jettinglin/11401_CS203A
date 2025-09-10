@@ -6,13 +6,13 @@ My learning process of the data structure course
 - **學號**:1121443
 - **Email**:s1121443@mail.yzu.edu.tw
 ---------------------------------------------------------------------------
-#這是我在CS203A-Data Structures的學習歷程
+# 這是我在CS203A-Data Structures的學習歷程
 內容有:
 - 筆記
 - 作業
 - 每周心得
 --------------------------------------------------------------------------
-#我的web_page
+# 我的web_page
 - [Personal Web](https://jettinglin.github.io/)
 --------------------------------------------------------------------------
-##Weekly Log
+## Weekly Log
