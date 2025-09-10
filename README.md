@@ -16,3 +16,4 @@ My learning process of the data structure course
 - [Personal Web](https://jettinglin.github.io/)
 --------------------------------------------------------------------------
 ## Weekly Log
+### Week1
