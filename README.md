@@ -3,7 +3,7 @@ My learning process of the data structure course
 - **學期**:114-1  
 - **授課老師**:黃鈺峰  
 - **學生**:林玠廷
-- **學好**:1121443
+- **學號**:1121443
 - **Email**:s1121443@mail.yzu.edu.tw
 ---------------------------------------------------------------------------
 #這是我在CS203A-Data Structures的學習歷程
@@ -14,3 +14,5 @@ My learning process of the data structure course
 --------------------------------------------------------------------------
 #我的web_page
 - [Personal Web](https://jettinglin.github.io/)
+--------------------------------------------------------------------------
+##Weekly Log
