@@ -12,4 +12,10 @@ My learning process of the data structure course
 - 作業
 - 每周心得
 --------------------------------------------------------------------------
+## Git 指令範例
+```bash
+git status
+git add .
+git commit -m "Week 01: notes"
+git push origin main
 
