@@ -1,2 +1,4 @@
-# Week 01 — 課堂心得
-這禮拜的課程還是以introduce為主，這次其實已經講到一些data structures得基礎介紹，像stack tree graph的簡單介紹等等，其中我比較驚訝的是老師介紹了SDLC(software development life cycle)，我還記得當初我是在程式語言這門課才接觸到的概念，
+# Week 02 — 課堂心得
+這禮拜的課程還是以introduce為主，這次其實已經講到一些data structures得基礎介紹，像stack tree graph的簡單介紹等等，其中我比較驚訝的是老師介紹了SDLC(software development life cycle)，我還記得當初我是在程式語言這門課才接觸到的概念，那時的我對這
+種繁瑣的方式去開發我的專案覺得多此一舉直到我開始修作業系統的課，一想到當時我的一個專案就有近500多行的code數10個function我才漸漸的理解SDLC存在的意義，只能說當時我的實力不夠才有這種傲慢的想法覺得這理論不重要。從現在的角度去看，SDLC的概念應是每個要走
+資工這條路需要知道的事情，而教授想也是知道其中的重要性才花如此篇幅去介紹這個概念。
