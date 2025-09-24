@@ -1,0 +1,13 @@
+**第三周**
+這禮拜已經正式的進入課堂，我們上的是array和一些基礎的sort，教授說要以他上課的放式來複習他的課程，所以以下心得會是以複習講解的放事來做撰寫，如有問題我會找時間把它改掉
+**array**
+根據存的時間跟空間分成兩種:
+1.static
+2.dynamic
+首先是static，static是一種靜態的array其是表示當一個array在編譯後會被定死空間，例如:我的array是static它的空間是能放九個integer那他就只能放九個，不能在run time時再加空間，他的問題是array如果需要insert或deletet東西會非常麻反且不可能發生的事
+那要能處理這件事就只有用dynamic了
+與static不同，dynamic有再編譯後還能加空間的能力，像我們熟知的stack在C++裡的STL就是用dynamic的方式去實現，那當然有好處壞處自然會有，其中比較知名的就是空間是否刪乾淨這種問題，如果沒有刪乾淨那他下的空間是有可能成為黑客攻擊你系統的跳板，所以兩者有利有弊
+再來是sort，這次講解了大概三個sort，分別是bubble sort,selection sort和insertion sort
+**bubble sort**
+**selection sort**
+**inserttion sort**
