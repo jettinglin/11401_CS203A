@@ -78,78 +78,15 @@ C++和C都可以直接按建置或按ctrl+B
 
 ### Result Snapshot
 - Example output for integers:
-  ```
-  === Hash Function Observation (C Version) ===
+ ![int_1](https://github.com/user-attachments/assets/b285cc60-cd83-4992-90b5-6001f0417a00)
+ ![int_2](https://github.com/user-attachments/assets/98c41648-c125-43ef-aee8-141c645faab8)
+ ![int_3](https://github.com/user-attachments/assets/702eb0ee-7c9c-49bc-bf5c-346f08019586)
 
-  === Table Size m = 10 ===
-  Key     Index
-  -----------------
-  21      1
-  22      2
-  ...
-
-  === Table Size m = 11 ===
-  Key     Index
-  -----------------
-  21      10
-  22      0
-  ...
-
-  === Table Size m = 37 ===
-  Key     Index
-  -----------------
-  21      21
-  22      22
-  ...
-
-  === Hash Function Observation (C++ Version) ===
-
-  === Table Size m = 10 ===
-  Key     Index
-  -----------------
-  21      1
-  22      2
-  ...
-
-  === Table Size m = 11 ===
-  Key     Index
-  -----------------
-  21      10
-  22      0
-  ...
-
-  === Table Size m = 37 ===
-  Key     Index
-  -----------------
-  21      21
-  22      22
-  ...
-  ```
 
 - Example output for strings:
-  ```
-  === String Hash (m = 10) ===
-  Key     Index
-  -----------------
-  cat     0
-  dog     0
-  ...
-
-  === String Hash (m = 11) ===
-  Key     Index
-  -----------------
-  cat     0
-  dog     0
-  ...
-
-  === String Hash (m = 37) ===
-  Key     Index
-  -----------------
-  cat     0
-  dog     0
-  ...
-  ```
-
+ ![str_1](https://github.com/user-attachments/assets/011bf02d-c66f-428f-9ec2-d9f173f1241a)
+ ![str_2](https://github.com/user-attachments/assets/35bf2a76-16e7-4a71-b0c7-e5d27cedc1ea)
+ ![str_3](https://github.com/user-attachments/assets/7f7fd457b-eff4-4d4e-a0c6-2fff8614fdf7)
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
 - Example output for integers:
   ```
