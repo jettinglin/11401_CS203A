@@ -19,15 +19,25 @@ Email: s1121443@mail.yzu.edu.tw
     (2)
     return (key % m + m) % m;  // basic division method
   ```
-- Rationale: [(2)是]
+- Rationale: [(2)是我以自己的見解所做的Func，其本身設計就很簡單，就只是在一開始的m的餘數再加一次m和餘數一次，(1)是我網上所查到的function方法叫我Knuth 乘法法，簡單來講就是key * A 會將輸入產生均勻的小數分布再乘以 m，讓數值能分部到0~m-1]
 
 ### Non-integer Keys
 - 以下皆以c++當範例
 - Formula / pseudocode:
   ```text
-  [Your implementation here]
+    (1)
+     unsigned long hash = 5381;
+    for (unsigned char c : str) {
+         hash = ((hash * 33) + hash) + c;
+    }
+    (2)
+    unsigned long hash = 0;
+    for (unsigned char c : str) {
+         hash += c;
+    }
+    return static_cast<int>(hash % m);  // basic division method
   ```
-- Rationale: [Explain your approach and its effectiveness for non-integer keys.]
+- Rationale: [(2)就是把所有單字給加起來餘數取int，而(1)設定一個變數為一個初始值通常是5381，將當前雜湊值左移5位(大概是乘以33或32)，將當前字元的ASCII碼值加到這個計算結果上，將上述計算結果作為新的雜湊值]
 
 ## Experimental Setup
 - Table sizes tested (m): 10, 11, 37
