@@ -59,7 +59,8 @@ Email: s1121443@mail.yzu.edu.tw
 ### Compilation
 - The project uses a comprehensive Makefile that builds both C and C++ versions with proper flags:
   ```bash
-  <img width="419" height="487" alt="螢幕擷取畫面 2025-11-20 202214" src="https://github.com/user-attachments/assets/b7ef053f-8208-4a71-85c9-9878292744f1" />
+ 
+![螢幕截圖](https://github.com/user-attachments/assets/fff495bc-cc03-4e36-b4f6-6aeb0a5de868)
 
   
   放在visual studio 2022裡
