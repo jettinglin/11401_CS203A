@@ -68,29 +68,13 @@ Email: s1121443@mail.yzu.edu.tw
 
 ### Manual Compilation (if needed)
 - Command for C:
-  ```bash
-  gcc -std=c23 -Wall -Wextra -Wpedantic -g -o C/hash_function C/main.c C/hash_fn.c
-  ```
 - Command for C++:
-  ```bash
-  g++ -std=c++23 -Wall -Wextra -Wpedantic -g -o CXX/hash_function_cpp CXX/main.cpp CXX/hash_fn.cpp
-  ```
-
-### Clean Build Files
-- Remove all compiled files:
-  ```bash
-  make clean
-  ```
-
+  ![C++ and C Command](https://github.com/user-attachments/assets/0a4dbd27-c81b-4998-8a7a-7360947b7836)
+  C++和C都可以直接按建置或按ctrl+B
 ### Execution
 - Run the compiled binary:
-  ```bash
-  ./hash_function
-  ```
-  or
-  ```bash
-  ./hash_function_cpp
-  ```
+  ![Execution Button](https://github.com/user-attachments/assets/1f090b24-86d0-42a2-b539-2e82ca183505)
+   按綠色箭頭或按F5
 
 ### Result Snapshot
 - Example output for integers:
