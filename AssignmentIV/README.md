@@ -85,9 +85,14 @@ C++和C都可以直接按建置或按ctrl+B
 
 
 - Example output for strings:
- ![str_1](https://github.com/user-attachments/assets/011bf02d-c66f-428f-9ec2-d9f173f1241a)
- ![str_2](https://github.com/user-attachments/assets/35bf2a76-16e7-4a71-b0c7-e5d27cedc1ea)
- ![str_3](https://github.com/user-attachments/assets/7f7fd457b-eff4-4d4e-a0c6-2fff8614fdf7)
+ ![str_1](https://github.com/user-attachments/assets/a033b369-0872-4f73-9c35-74f7a894d6c8)
+ ![str_2](https://github.com/user-attachments/assets/70a8302a-cdfa-45e4-a636-4c90d36a5681)
+ ![str_3](https://github.com/user-attachments/assets/059a6c88-1ce0-4489-b228-7c947e293971)
+<img width="439" height="724" alt="螢幕擷取畫面 2025-11-20 194448" src="https://github.com/user-attachments/assets/70a8302a-cdfa-45e4-a636-4c90d36a5681" />
+<img width="655" height="920" alt="螢幕擷取畫面 2025-11-20 194428" src="https://github.com/user-attachments/assets/a033b369-0872-4f73-9c35-74f7a894d6c8" />
+<img width="337" height="543" alt="螢幕擷取畫面 2025-11-20 194500" src="https://github.com/user-attachments/assets/059a6c88-1ce0-4489-b228-7c947e293971" />
+
+
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
 - Example output for integers:
   ```
