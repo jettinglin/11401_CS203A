@@ -78,6 +78,7 @@ C++和C都可以直接按建置或按ctrl+B
 
 ### Result Snapshot
 - Example output for integers:
+
  ![int_1](https://github.com/user-attachments/assets/b285cc60-cd83-4992-90b5-6001f0417a00)
  ![int_2](https://github.com/user-attachments/assets/98c41648-c125-43ef-aee8-141c645faab8)
  ![int_3](https://github.com/user-attachments/assets/702eb0ee-7c9c-49bc-bf5c-346f08019586)
