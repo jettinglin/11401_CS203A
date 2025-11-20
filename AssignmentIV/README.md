@@ -59,15 +59,9 @@ Email: s1121443@mail.yzu.edu.tw
 ### Compilation
 - The project uses a comprehensive Makefile that builds both C and C++ versions with proper flags:
   ```bash
-  # Build both C and C++ versions
-  make all
-  
-  # Build only C version
-  make c
-  
-  # Build only C++ version
-  make cxx
-  ```
+  <img width="387" height="571" alt="image" src="https://github.com/user-attachments/assets/c6cdc9cf-bea6-46c0-87e0-ac145f5ee922" />
+  放在visual studio 2022裡
+
 
 ### Manual Compilation (if needed)
 - Command for C:
