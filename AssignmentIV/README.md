@@ -111,10 +111,23 @@ C++和C都可以直接按建置或按ctrl+B
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
 
 ## Analysis
-- Prime vs non-prime `m`: Prime table sizes generally result in better distribution and fewer collisions.
-- Patterns or collisions: Non-prime table sizes tend to produce repetitive patterns, leading to more collisions.
-- Improvements: Use a prime table size and a well-designed hash function to enhance distribution.
-
+- integer
+  - 乘法法
+    - 對 m 的選擇較不敏感，對連續整數（21~60）能產生比較亂的分布。
+    - 特別是在 m=10 時，分布比單純 key % 10 均勻很多。
+    - 缺點是需要浮點數運算，比純 % 慢一點，但在作業規模下可以忽略。
+  - 除法法（註解版）
+    - 實作簡單、執行快速。
+    - 當 m 是質數時（如 11, 37），分布可以接受。
+    - 但如果 m 選不好（例如 10），pattern 非常明顯，容易集中在周期性的 bucket。
+- string
+  - 類 DJB2
+     - 對字串長度與每個字元的位置都敏感，小變化會造成 hash 大變化。
+     - 對一般英文單字（如 cat,dog,bat,cow,...）能提供較均勻的分布。
+  - 加總字元
+     - 實作最簡單
+     - 很多不同字串（特別是同樣字母總和或字母重排）會得到相同 hash，
+     - 導致碰撞嚴重，hash table 退化成一堆鏈結串列。 
 ## Reflection
 1. Designing hash functions requires balancing simplicity and effectiveness to minimize collisions.
 2. Table size significantly impacts the uniformity of the hash distribution, with prime sizes performing better.
