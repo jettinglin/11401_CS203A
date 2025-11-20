@@ -129,6 +129,28 @@ C++和C都可以直接按建置或按ctrl+B
      - 很多不同字串（特別是同樣字母總和或字母重排）會得到相同 hash，
      - 導致碰撞嚴重，hash table 退化成一堆鏈結串列。 
 ## Reflection
-1. Designing hash functions requires balancing simplicity and effectiveness to minimize collisions.
-2. Table size significantly impacts the uniformity of the hash distribution, with prime sizes performing better.
-3. The design using a prime table size and a linear transformation formula produced the most uniform index sequence.
+在這次作業中，我分別比較了兩種整數的雜湊方法（方法一與方法二），以及兩種字串的雜湊方法，從中觀察它們在不同表格大小下的分布情況與碰撞特性。
+
+在 (1) 的 integer 實作 中，我採用的是最基本的 線性（linear）方式：
+就是直接以 key % m 取餘數。這種方式雖然簡單，但當測試資料本身較單純、尤其是本次的整數輸入是連續的（21,22,23…）時，分布會呈現非常明顯的規律與重複，常常可以看到週期性的循環，整體「打得不夠散」。因此，只要 table size m 不夠佳，例如 m=10，就會出現可預期的 pattern，而不是理想的均勻打散。
+
+在 (1) 的 string 實作 中，我採用「加總字元 ASCII 值」後再對 m 取餘數的方式。雖然這種方法也算是簡單版本，但相比整數的線性方法，它確實能把結果打得更散一些，分布也更難直接目視出規律。不過它仍然有先天限制，因為字串不同但總和相同時，依然可能收到相同 hash 值（例如不同字母組合但和相同），因此碰撞問題仍然存在。
+
+到了 (2) 的方法，不論是 integer 或 string，我採用的都是從網路查詢後參考較常見的雜湊演算法，例如 integer 的乘法法（multiplication method）、string 的類 DJB2 法等。這些方法的共同特性就是：
+    能夠把輸入打散得更徹底
+    規律不明顯、分布較均勻
+    不容易因為輸入的單純性而產生可預測的循環
+
+從輸出結果來看，不管是整數或字串，方法 (2) 都明顯比方法 (1) 更能「完全打散」「看不出規律」。
+但在 string 的部分，我仍然觀察到一些碰撞（或潛在碰撞）的情況。查過資料後得出的結論是：
+這類較複雜的 hash 方法雖然強大，但在以下情況下仍可能碰撞偏高：
+
+table size m 不夠大
+
+輸入資料本身太過 simple（例如短字串或字母範圍小）
+
+資料量不大但彼此類似
+
+因此在實務中，這類方法比較適合用在較複雜的 hash 場景，例如資料量大、字串較長、m 是設計成質數或較大的容量。
+
+整體來說，這次實作讓我清楚看見：「好的 hash function 不只是算式不同，而是要同時考慮資料特性、表格大小、算法特性」。簡單方法在某些情況下雖然有效，但面對敏感資料時容易失效；而複雜方法雖然打散能力強，但也需要良好的參數與場景搭配。可以說 hash function 的選擇本身，就是一種需要兼顧數學性質與資料特性的取捨。
