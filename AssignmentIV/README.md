@@ -8,6 +8,8 @@ Developer: jettinglin
 Email: s1121443@mail.yzu.edu.tw
 
 ## My Hash Function
+## 須注意事項:
+  目前在code是(1)方法，(2)的方法是事先註解掉的，如要測試須把她解開
 ### Integer Keys 
 - 以下皆以c++當範例
 - Formula / pseudocode:
