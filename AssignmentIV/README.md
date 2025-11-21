@@ -76,7 +76,7 @@ C++和C都可以直接按建置或按ctrl+B
 按綠色箭頭或按F5
 ## Result
 ### Result Snapshot
-- (1)的寫法結果:
+- (2)的寫法結果:
 
  ![int_1](https://github.com/user-attachments/assets/b285cc60-cd83-4992-90b5-6001f0417a00)
  
@@ -85,7 +85,7 @@ C++和C都可以直接按建置或按ctrl+B
  ![int_3](https://github.com/user-attachments/assets/702eb0ee-7c9c-49bc-bf5c-346f08019586)
 
 
-- (2)的寫法結果:
+- (1)的寫法結果:
 
  ![str_1](https://github.com/user-attachments/assets/a033b369-0872-4f73-9c35-74f7a894d6c8)
  
