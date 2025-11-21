@@ -47,13 +47,6 @@ Email: s1121443@mail.yzu.edu.tw
 - Compiler: visual studio 2022
 - Standard: C23 and C++23
 
-## Results
-| Table Size (m) | Index Sequence         | Observation              |
-|----------------|------------------------|--------------------------|
-| 10             | 1, 2, 3, 4, ...        | Pattern repeats every 10 |
-| 11             | 10, 0, 1, 2, ...       | More uniform             |
-| 37             | 20, 21, 22, 23, ...    | Near-uniform             |
-
 ## Compilation, Build, Execution, and Output
 
 ### Compilation
@@ -75,7 +68,7 @@ C++和C都可以直接按建置或按ctrl+B
 - Run:
 ![Execution Button](https://github.com/user-attachments/assets/1f090b24-86d0-42a2-b539-2e82ca183505)
 按綠色箭頭或按F5
-
+## Result
 ### Result Snapshot
 - (1)的寫法結果:
 
