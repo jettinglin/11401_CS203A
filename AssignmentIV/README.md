@@ -70,7 +70,9 @@ Email: s1121443@mail.yzu.edu.tw
 C++和C都可以直接按建置或按ctrl+B
 ### Execution
 - Run:
+
 ![Execution Button](https://github.com/user-attachments/assets/1f090b24-86d0-42a2-b539-2e82ca183505)
+
 按綠色箭頭或按F5
 ## Result
 ### Result Snapshot
