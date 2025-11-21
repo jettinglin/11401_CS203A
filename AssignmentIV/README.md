@@ -64,7 +64,9 @@ Email: s1121443@mail.yzu.edu.tw
 ### Manual Compilation (if needed)
 - Command for C:
 - Command for C++:
+
 ![C++ and C Command](https://github.com/user-attachments/assets/0a4dbd27-c81b-4998-8a7a-7360947b7836)
+
 C++和C都可以直接按建置或按ctrl+B
 ### Execution
 - Run:
