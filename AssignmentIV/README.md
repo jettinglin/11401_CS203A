@@ -313,4 +313,4 @@ ASCII 加總法只看字母總和 → 碰撞與集中情況明顯。
 真正的雜湊設計不是照著公式做，而是要根據資料特性去選擇最合適的策略。
 ### References:
 https://blog.csdn.net/u012739527/article/details/124011744 (DJB2)
-
+https://www.cs.nthu.edu.tw/~wkhon/ds/ds12/lecture/lecture18.pdf (乘法法)搭配AI完成
