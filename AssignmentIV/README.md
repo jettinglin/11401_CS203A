@@ -95,10 +95,7 @@ h(key) = key \bmod m
 方法 (1) 的字串雜湊採用一種常見的 DJB2 風格演算法。  
 其基本形式為：
 
-\[
-hash_0 = 5381,\quad
-hash_{i+1} = hash_i \times 33 + \text{(當前字元)}
-\]
+hash = hash * 33 + c;
 
 在程式中實作為（本作業使用 `hash = ((hash * 33) + hash) + c` 的等價變形）：
 
