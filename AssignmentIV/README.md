@@ -72,9 +72,9 @@ h(key) = floor m \cdot ( key \cdot A - \lfloor key \cdot A \rfloor ) \rfloor
 
 方法 (2) 採用最基本的除法法：
 
-\[
-h(key) = key \bmod m
-\]
+[
+h(key) = key mod m
+]
 
 在程式中實作為 `return (key % m + m) % m;`，藉由再取一次 `% m` 確保結果落在 \([0, m-1]\)（即使 key 為負數也適用，但本作業 key 皆為正）。
 
