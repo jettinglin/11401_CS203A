@@ -53,7 +53,7 @@ Email: s1121443@mail.yzu.edu.tw
 對一個整數 key 與表大小 m，雜湊函數的形式為：
 
 \[
-h(key) = \lfloor m \cdot ( key \cdot A - \lfloor key \cdot A \rfloor ) \rfloor
+h(key) = floor m \cdot ( key \cdot A - \lfloor key \cdot A \rfloor ) \rfloor
 \]
 
 在程式中實作為：
