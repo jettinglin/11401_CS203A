@@ -117,9 +117,9 @@ hash = hash * 33 + c;
 方法 (2) 的字串雜湊採用最簡單的做法：  
 將字串中所有字元的 ASCII 值加總後，再對 m 取餘數：
 
-\[
-hash(str) = \left( \sum_{i} \text{ASCII}(str[i]) \right) \bmod m
-\]
+[
+hash(str) = (sum_{i} \text{ASCII}(str[i])) mod m
+]
 
 設計理念：
 
