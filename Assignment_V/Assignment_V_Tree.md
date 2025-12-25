@@ -133,3 +133,21 @@ Course： Data Structures（11401_CS203A)
 ---
 
 ## Section E. Reflection on Tree Family and Performance
+
+### Mostly search, few updates
+在以搜尋操作為主、插入與刪除次數較少的情況下，選擇 AVL Tree 較為合適。  
+其嚴格的高度平衡能確保搜尋操作在最壞情況下仍維持 O(log n)。
+
+---
+
+### Frequent insertions and deletions
+在插入與刪除操作頻繁的情況下，選擇 Red-Black Tree 較佳。  
+由於其平衡條件較為寬鬆，更新時所需的旋轉次數較少，整體效能更穩定。
+
+---
+
+### Static data, search only
+若資料僅需靜態搜尋而不再更新，選擇 **排序後的陣列搭配二分搜尋** 最為合適。  
+此方式不需維護樹狀結構，實作簡單且搜尋效率高。
+
+---
