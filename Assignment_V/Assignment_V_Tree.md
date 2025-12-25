@@ -37,3 +37,15 @@ Course： Data Structures（11401_CS203A)
 # 使用的網站有用以下幾個
 > https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 > https://sercankulcu.github.io/files/data_structures/slides/Bolum_08_Heap.html
+
+---
+### Binary Tree（二元樹）
+
+**建構說明：**  
+將所有給定整數插入二元樹中，每個節點最多具有兩個子節點，不加入任何排序或平衡規則，僅展示一般二元樹的基本結構。
+(上面的網站跟我找了許久都沒找到對應的視覺化，固用BST作替代)
+
+**Screenshot：**  
+
+<img width="901" height="476" alt="螢幕擷取畫面 2025-12-24 164043" src="https://github.com/user-attachments/assets/f5ff0edb-688f-4b90-a9f9-b06110dad06e" />
+
