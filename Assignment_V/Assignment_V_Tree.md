@@ -58,3 +58,6 @@ Course： Data Structures（11401_CS203A)
 (用min heap作替代)
 
 **Screenshot：**
+
+<img width="1247" height="717" alt="螢幕擷取畫面 2025-12-24 165513" src="https://github.com/user-attachments/assets/2f2ac4db-0b9c-4968-b5e8-3802dc02a44d" />
+
