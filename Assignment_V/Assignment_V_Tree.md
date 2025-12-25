@@ -26,4 +26,10 @@ Course： Data Structures（11401_CS203A)
 | BST | AVL Tree | 嚴格高度平衡 |
 | BST | Red-Black Tree | 顏色規則維持近似平衡 |
 | Complete Binary Tree | Max Heap | 父節點值 ≥ 子節點值 |
-| Complete Binary Tree | Min Heap | 父節點值 ≤ 子節點值 |
+| Complete Binary Tree | Min Heap | 父節點值 ≤ 子節點值 |\
+
+## Section C. Tree Constructions Using Given Integers
+
+**Given integers（所有樹皆使用同一組）：**
+37, 142, 5, 89, 63, 117, 24, 176, 58, 133,
+92, 11, 151, 72, 39, 184, 7, 101, 54, 160
