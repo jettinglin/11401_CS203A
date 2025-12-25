@@ -1,6 +1,6 @@
 # Assignment V – Tree
 
-#　Course： Data Structures（11401_CS203A)
+Course： Data Structures（11401_CS203A)
 
 ## Section A　a. Understand and clearly define:
 
