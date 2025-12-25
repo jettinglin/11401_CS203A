@@ -61,3 +61,13 @@ Course： Data Structures（11401_CS203A)
 
 <img width="1247" height="717" alt="螢幕擷取畫面 2025-12-24 165513" src="https://github.com/user-attachments/assets/2f2ac4db-0b9c-4968-b5e8-3802dc02a44d" />
 
+---
+
+### Binary Search Tree（BST）
+
+**建構說明：**  
+依給定整數順序逐一插入節點，插入過程中遵守二元搜尋樹性質：左子樹中所有節點值小於節點，右子樹中所有節點值大於節點。
+
+**Screenshot：**  
+
+<img width="901" height="476" alt="螢幕擷取畫面 2025-12-24 164043" src="https://github.com/user-attachments/assets/624cd646-4bd1-4c87-9bf3-f59d74185dc8" />
