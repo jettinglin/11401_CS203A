@@ -49,3 +49,12 @@ Course： Data Structures（11401_CS203A)
 
 <img width="901" height="476" alt="螢幕擷取畫面 2025-12-24 164043" src="https://github.com/user-attachments/assets/f5ff0edb-688f-4b90-a9f9-b06110dad06e" />
 
+---
+
+### Complete Binary Tree（完全二元樹）
+
+**建構說明：**  
+依照給定順序以 level-order（由左至右）方式插入節點，使樹的結構符合完全二元樹的定義，即除最後一層外皆填滿，最後一層由左至右排列。
+(用min heap作替代)
+
+**Screenshot：**
