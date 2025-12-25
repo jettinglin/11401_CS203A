@@ -153,7 +153,7 @@ Course： Data Structures（11401_CS203A)
 ---
 ## Section F. AI Usage Log
 
-| 編號 | 使用的 AI 工具 | 使用目的 |
+| index | 使用的 AI 工具 | 使用目的 |
 |---|---|---|
 | 1 | ChatGPT | 協助理解各種樹狀結構的定義與差異 |
 | 2 | ChatGPT | 說明 AVL Tree 與 Red-Black Tree 的平衡策略 |
