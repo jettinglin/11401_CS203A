@@ -158,5 +158,8 @@ Course： Data Structures（11401_CS203A)
 | 1 | ChatGPT | 協助理解各種樹狀結構的定義與差異 |
 | 2 | ChatGPT | 說明 AVL Tree 與 Red-Black Tree 的平衡策略 |
 | 3 | ChatGPT | 協助整理作業內容與 GitHub 呈現方式 |
+
+
+使用AI連結:
 ChatGPT:https://chatgpt.com/share/694cfedc-0328-8011-a566-3da4b7d8ed2e
 ChatGPT:https://chatgpt.com/share/694cff8e-f5f0-8011-9638-fc9c13e34285
