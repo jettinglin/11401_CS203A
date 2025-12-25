@@ -120,3 +120,12 @@ Course： Data Structures（11401_CS203A)
 
 ## Section D. Application Examples
 
+| Tree Type | 應用情境 | 為何適合 |
+|---|---|---|
+| Binary Tree | 運算式樹 | 能清楚表示運算子的左右運算元結構，透過樹走訪即可完成運算。 |
+| Complete Binary Tree | 堆積結構的基礎表示 | 結構緊密，可使用陣列儲存，空間與存取效率佳。 |
+| Binary Search Tree | 動態資料搜尋（字典、符號表） | 具排序性質，搜尋與更新在平均情況下相當有效率。 |
+| AVL Tree | 以搜尋為主的系統 | 嚴格高度平衡，搜尋效能穩定。 |
+| Red-Black Tree | 標準函式庫 map / set | 平衡條件較寬鬆，插入與刪除成本低。 |
+| Max Heap | 優先權佇列（取最大值） | 最大值永遠位於根節點，便於快速存取。 |
+| Min Heap | 排程系統、最短路徑演算法 | 能快速取得最小值，適合權重比較情境。 |
