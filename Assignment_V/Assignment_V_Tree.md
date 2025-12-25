@@ -33,3 +33,7 @@ Course： Data Structures（11401_CS203A)
 **Given integers（所有樹皆使用同一組）：**
 37, 142, 5, 89, 63, 117, 24, 176, 58, 133,
 92, 11, 151, 72, 39, 184, 7, 101, 54, 160
+> 本節使用樹狀結構視覺化工具建構不同類型的樹，並透過截圖與簡要說明呈現其建構方式
+# 使用的網站有用以下幾個
+> https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+> https://sercankulcu.github.io/files/data_structures/slides/Bolum_08_Heap.html
