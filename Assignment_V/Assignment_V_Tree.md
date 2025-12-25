@@ -129,3 +129,7 @@ Course： Data Structures（11401_CS203A)
 | Red-Black Tree | 標準函式庫 map / set | 平衡條件較寬鬆，插入與刪除成本低。 |
 | Max Heap | 優先權佇列（取最大值） | 最大值永遠位於根節點，便於快速存取。 |
 | Min Heap | 排程系統、最短路徑演算法 | 能快速取得最小值，適合權重比較情境。 |
+
+---
+
+## Section E. Reflection on Tree Family and Performance
