@@ -47,7 +47,7 @@ Course： Data Structures（11401_CS203A)
 
 **Screenshot：**  
 
-<img width="901" height="476" alt="螢幕擷取畫面 2025-12-24 164043" src="https://github.com/user-attachments/assets/f5ff0edb-688f-4b90-a9f9-b06110dad06e" />
+<img width="647" height="425" alt="螢幕擷取畫面 2025-12-26 183801" src="https://github.com/user-attachments/assets/ccd0af52-4148-4e2e-9cd6-6c3d9a7adc44" />
 
 ---
 
@@ -59,7 +59,7 @@ Course： Data Structures（11401_CS203A)
 
 **Screenshot：**
 
-<img width="1247" height="717" alt="螢幕擷取畫面 2025-12-24 165513" src="https://github.com/user-attachments/assets/2f2ac4db-0b9c-4968-b5e8-3802dc02a44d" />
+<img width="706" height="516" alt="螢幕擷取畫面 2025-12-26 183810" src="https://github.com/user-attachments/assets/a719a144-d1ac-4f4f-a52f-476b68be5a8d" />
 
 ---
 
