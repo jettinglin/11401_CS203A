@@ -199,7 +199,7 @@
 
 ---
 
-## Appendix A：Array 維度比較
+## Array 維度比較
 
 | 維度 | 結構 | Index 數量 | 常見用途 |
 |---|---|---|---|
@@ -209,7 +209,7 @@
 
 ---
 
-## Appendix B：Static vs Dynamic Array
+## Static vs Dynamic Array
 
 | 項目 | Static Array | Dynamic Array |
 |---|---|---|
@@ -220,7 +220,7 @@
 
 ---
 
-## Appendix C：時間複雜度整理
+## 時間複雜度整理
 
 | 操作 | 時間複雜度 |
 |---|---|
@@ -233,7 +233,7 @@
 
 ---
 
-## Appendix D：什麼時候該用 Array
+## 什麼時候該用 Array
 
 | 情境 | 適合與否 | 原因 |
 |---|---|---|
