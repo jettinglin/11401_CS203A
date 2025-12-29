@@ -143,7 +143,7 @@
 
 ---
 
-## 七、Linked List 的三種常見變形（超常考）
+## 七、Linked List 的三種常見變形
 
 ### Singly Linked List（單向）
 
@@ -206,7 +206,7 @@
 
 ---
 
-## 八、Linked List vs Array（老師最愛出）
+## 八、Linked List vs Array
 
 - 為什麼會有 Linked List
   - 為了解決 Array 插入、刪除慢的問題
