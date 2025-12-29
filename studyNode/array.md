@@ -320,14 +320,14 @@
 
 ## 附錄 C：Array 核心操作時間複雜度表
 
-| 操作 | 說明 | 時間複雜度 | 是否常考 |
-|----|----|----|----|
-| Access | 用 index 直接存取 | O(1) | 是 |
-| Insert | 中間插入資料 | O(n) | 是 |
-| Delete | 中間刪除資料 | O(n) | 是 |
-| Traverse | 逐一走訪 | O(n) | 是 |
-| Linear Search | 一個一個找 | O(n) | 是 |
-| Binary Search | 對半搜尋（需排序） | O(log n) | 是 |
+| 操作 | 說明 | 時間複雜度 | 
+|----|----|----|
+| Access | 用 index 直接存取 | O(1) |
+| Insert | 中間插入資料 | O(n) |
+| Delete | 中間刪除資料 | O(n) |
+| Traverse | 逐一走訪 | O(n) |
+| Linear Search | 一個一個找 | O(n) |
+| Binary Search | 對半搜尋（需排序） | O(log n) |
 
 ---
 
