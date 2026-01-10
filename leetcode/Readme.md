@@ -9,36 +9,39 @@
 
 ### 版本說明
 1. **只有我的版本**：如果這題我寫完後覺得邏輯 OK，我就會只介紹我寫的版本。
-2. **對照組版本**：如果網路上有更好的神人解法（更快的、更省空間的），我也會把它拿來跟我的版本**進行對齊與比對**。這樣我才能看清楚自己的盲點在哪，學習別人的優點。
+2. **對照組版本**：如果網路上有更好的神人解法（更快的、更省空間的），我也會拿來跟我的版本**進行對齊與比對**。這樣我才能看清楚自己的盲點在哪，學習別人的優點。
 
 ---
 
-## 題目列表與連結
+## 題目列表與進度
 
-這裡是我目前整理好的題目，點擊標題可以直接連到 LeetCode 官網看原題喔！
+點擊 **題目名稱** 可以連到 LeetCode 官網看原題，點擊 **[查看我的代碼與解析]** 則會進入該題目的資料夾。
 
-### [9. Palindrome Number (回文數)](https://leetcode.com/problems/palindrome-number/)
+### 1. [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 * **核心邏輯**：數字翻轉比對法。
-* **我的紀錄**：[[專案資料夾]](./Palindrome Number/)
-* **目前狀態**：已完成解析。
+* **我的紀錄**：[[查看我的代碼與解析]](./9.%20Palindrome%20Number/)
+* **目前狀態**：已完成
 
 ---
 
-### [13. Roman to Integer (羅馬數字轉整數)](https://leetcode.com/problems/roman-to-integer/)
-* **核心邏輯**：Map 字元映射與減法規則判斷。
-* **目前狀態**：已完成解析。
+### 2. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+* **核心邏輯**：Map 字元映射與減法規則。
+* **我的紀錄**：[[查看我的代碼與解析]](./13.%20Roman%20to%20Integer/)
+* **目前狀態**：已完成
 
 ---
 
-### [14. Longest Common Prefix (最長公共前綴)](https://leetcode.com/problems/longest-common-prefix/)
+### 3. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * **核心邏輯**：垂直掃描比對。
-* **目前狀態**：已完成解析。
+* **我的紀錄**：[[查看我的代碼與解析]](./14.%20Longest%20Common%20Prefix/)
+* **目前狀態**：已完成
 
 ---
 
-### [20. Valid Parentheses (有效的括號)](https://leetcode.com/problems/valid-parentheses/)
+### 4. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * **核心邏輯**：Stack 堆疊後進先出配對。
-* **目前狀態**：已完成解析。
+* **我的紀錄**：[[查看我的代碼與解析]](./20.%20Valid%20Parentheses/)
+* **目前狀態**：已完成
 
 ---
 
@@ -46,8 +49,9 @@
 
 ### 筆記格式
 每一份題目的解析都會包含：
+* **整體架構**：程式的進入點跟大方向。
 * **核心概念**：這題到底在考什麼。
-* **實作說明**：程式碼每一段是在幹嘛。
+* **實作說明**：程式碼每一段是在幹嘛（口語化解釋）。
 * **優缺點分析**：這招好在哪？哪裡可能會有問題？
 * **複雜度分析**：時間跟空間的消耗狀況。
 
@@ -55,6 +59,6 @@
 
 ## 未來展望
 刷題是條長遠的路，我會**不斷更新**這裡的內容。  
-如果之後學到更精妙的資料結構（像是 Tree 或 Graph），我也會同步把筆記補上。
+如果之後學到更精妙的資料結構實作，我也會同步把筆記補上。
 
 ---
