@@ -17,6 +17,13 @@
 
 點擊 **題目名稱** 可以連到 LeetCode 官網看原題，點擊 **[查看我的代碼與解析]** 則會進入該題目的資料夾。
 
+### [Two Sum](https://leetcode.com/problems/two-sum/)
+* **核心邏輯**：Hash Table 紀錄與差額尋找。
+* **我的紀錄**：[[查看我的代碼與解析]](<./Two_Sum/>)
+* **目前狀態**：已完成
+
+---
+
 ### [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 * **核心邏輯**：數字翻轉比對法。
 * **我的紀錄**：[[查看我的代碼與解析]](<./Palindrome Number/>)
