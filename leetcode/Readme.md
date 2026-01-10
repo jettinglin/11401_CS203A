@@ -19,7 +19,7 @@
 
 ### 1. [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 * **核心邏輯**：數字翻轉比對法。
-* **我的紀錄**：[[查看我的代碼與解析]](./9.%20Palindrome%20Number/)
+* **我的紀錄**：[[查看我的代碼與解析]](./Palindrome Number)
 * **目前狀態**：已完成
 
 ---
