@@ -17,30 +17,30 @@
 
 點擊 **題目名稱** 可以連到 LeetCode 官網看原題，點擊 **[查看我的代碼與解析]** 則會進入該題目的資料夾。
 
-### 1. [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+### [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 * **核心邏輯**：數字翻轉比對法。
-* **我的紀錄**：[[查看我的代碼與解析]](./Palindrome Number)
+* **我的紀錄**：[[查看我的代碼與解析]](<./Palindrome Number/>)
 * **目前狀態**：已完成
 
 ---
 
-### 2. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+### [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 * **核心邏輯**：Map 字元映射與減法規則。
-* **我的紀錄**：[[查看我的代碼與解析]](./13.%20Roman%20to%20Integer/)
+* **我的紀錄**：[[查看我的代碼與解析]](<./Roman to Integer/>)
 * **目前狀態**：已完成
 
 ---
 
-### 3. [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+### [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * **核心邏輯**：垂直掃描比對。
-* **我的紀錄**：[[查看我的代碼與解析]](./14.%20Longest%20Common%20Prefix/)
+* **我的紀錄**：[[查看我的代碼與解析]](<./Longest Common Prefix/>)
 * **目前狀態**：已完成
 
 ---
 
-### 4. [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+### [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * **核心邏輯**：Stack 堆疊後進先出配對。
-* **我的紀錄**：[[查看我的代碼與解析]](./20.%20Valid%20Parentheses/)
+* **我的紀錄**：[[查看我的代碼與解析]](<./Valid Parentheses/>)
 * **目前狀態**：已完成
 
 ---
@@ -59,6 +59,6 @@
 
 ## 未來展望
 刷題是條長遠的路，我會**不斷更新**這裡的內容。  
-如果之後學到更精妙的資料結構實作，我也會同步把筆記補上。
+如果之後學到更精妙的資料結構，我也會同步把筆記補上。
 
 ---
